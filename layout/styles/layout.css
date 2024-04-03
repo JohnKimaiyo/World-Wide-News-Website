@@ -7,7 +7,11 @@ Licence: Free to use under our free template licence terms
 Licence URI: http://www.os-templates.com/template-terms
 File: Layout CSS
 */
-
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
 @import url("navi.css");
 @import url("forms.css");
 @import url("tables.css");
