@@ -157,3 +157,27 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #copyright{padding:15px 0;}
 #copyright p{margin:0; padding:0;}
+
+/* styles_mobile.css */
+
+/* Apply styles for screen widths up to 768 pixels */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    /* You can add your mobile-specific styles here */
+    /* For example: */
+    body {
+      font-size: 14px; /* Decrease font size for better readability on smaller screens */
+    }
+  
+    /* Adjustments for specific elements */
+    #header {
+      padding: 10px; /* Add padding to header for better spacing */
+    }
+  
+    /* Adjustments for navigation */
+    #topnav {
+      display: block; /* Ensure the navigation appears as a block for better stacking on small screens */
+      margin-bottom: 10px; /* Add space between navigation items */
+    }
+  }
+  
